@@ -1,8 +1,16 @@
 # Гайд по сокету LGA3647
 
-Это пока что попытка написать мануал по сокету LGA3647.
+ ![](https://github.com/ThinkPadThink/Guide3647/blob/master/XeonPlatinum.png?raw=true)
+ 
+*Специально для Зионотреда на борде 2ch.hk/hw*
 
-(фото)
+*Для написания этого гайда использовались различные источники информации.*
+
+*__При копировании информации обязательно указывайте оригинальный источник.__* 
+
+*Если у вас есть что добавить можете воспользоваться __Pull Request__  и я это тогда добавлю в гайд. Хуйцы и прочее я конечно же добавлять не буду.*
+
+
 
 **Описание:**
 
@@ -60,9 +68,14 @@ ECC REG и её подтипы + Optane DC memory.
 
 **Охлад: **
 
-Для данного сокета требуется своё охлаждение обычные башни с других сокетов не подойдут. ТАк же существуют несколько типов крепления охлада, узкий и квадратный(Narrow и Square).
+Для данного сокета требуется своё охлаждение обычные башни с других сокетов не подойдут. Так же существуют несколько типов крепления охлада, узкий и квадратный(Narrow и Square). По подробнее можно прочитать здесь [Servethehome](https://www.servethehome.com/narrow-square-ilm-socket-lga-3647-heatsink-differences/)
 
-(фото сюда вставить)
+**Крепления:** 
+
+![](https://github.com/ThinkPadThink/Guide3647/blob/master/3647_mount.png?raw=true)
+
+**Установленные CPU в рамки для крепления Narrow и Square:**
+![](https://github.com/ThinkPadThink/Guide3647/blob/master/Socket-LGA-3647-Narrow-and-Square-CPU-mounted%20(1).jpg?raw=true)
 
 
 **Установка CPU:**
@@ -79,6 +92,13 @@ ECC REG и её подтипы + Optane DC memory.
 
 На некоторых платах например у той же Supermciro заместо SATA портов распаивают крупные Mini-SAS порты для sata hdd/ssd/odd устройств, для них может понадобиться кабель SFF-8087 to 4 SATA либо SFF-8643 to 4 SATA. Фото ниже:
 
+**SFF-8087 to 4 SATA:**
+
+ ![](https://github.com/ThinkPadThink/Guide3647/blob/master/sff%20to%20sata.jpg?raw=true)
+ 
+ **SFF-8643 to 4 SATA:**
+ 
+ ![](https://github.com/ThinkPadThink/Guide3647/blob/master/sff8643tosata.jpg?raw=true)
 
 Ссылки:
 - [Гайд по сокету LGA2011-3](https://github.com/ThinkPadThink/Guide2011-3);

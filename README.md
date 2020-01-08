@@ -135,15 +135,19 @@ ECC REG и её подтипы + Optane DC memory.
 
 # Общие примечания:
 
-На некоторых платах например у той же Supermciro заместо SATA портов распаивают крупные Mini-SAS порты для sata hdd/ssd/odd устройств, для них может понадобиться кабель SFF-8087 to 4 SATA либо SFF-8643 to 4 SATA. Фото ниже:
+На некоторых платах например у той же Supermciro заместо SATA портов распаивают крупные Mini-SAS порты для sata hdd/ssd/odd устройств, для них может понадобиться кабель SFF-8087(Internal MiniSAS) to 4 SATA **(На счёт этого кабеля не уверен на 100%, возможно я не прав)** либо SFF-8643(Internal MiniSAS HD) to 4 SATA, либо SFF-8654(SlimSAS) to 4 SATA. Фото ниже:
 
 **SFF-8087 to 4 SATA:**
 
- ![](https://github.com/ThinkPadThink/Guide3647/blob/master/sff%20to%20sata.jpg?raw=true)
+![](https://github.com/ThinkPadThink/Guide3647/blob/master/sff%20to%20sata.jpg?raw=true)
  
  **SFF-8643 to 4 SATA:**
+
+![](https://github.com/ThinkPadThink/Guide3647/blob/master/sff8643tosata.jpg?raw=true)
  
- ![](https://github.com/ThinkPadThink/Guide3647/blob/master/sff8643tosata.jpg?raw=true)
+ **SFF-8654 to 4 SATA:**
+ 
+![](https://github.com/ThinkPadThink/Guide3647/blob/master/SLIMSAS.jpg?raw=true)
 
 # Ссылки:
 - [Гайд по сокету LGA2011-3](https://github.com/ThinkPadThink/Guide2011-3);
